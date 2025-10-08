@@ -6,7 +6,7 @@
 }
 
 .navbar-brand {
-  color: #2c786c !important;
+  color: #1f2d2a !important;
   font-weight: 700;
   font-size: 1.5rem;
 }
@@ -18,7 +18,7 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: #2c786c !important;
+  color: #1f2d2a !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -40,14 +40,14 @@
 
 .dropdown-item:hover {
   background-color: #edf8f5;
-  color: #2c786c;
-  border-left: 3px solid #2c786c;
+  color: #1f2d2a;
+  border-left: 3px solid #1f2d2a;
 }
 
 /* === BUTTONS === */
 .btn-primary {
-  background-color: #2c786c;
-  border-color: #2c786c;
+  background-color: #1f2d2a;
+  border-color: #1f2d2a;
 }
 
 .btn-primary:hover {
@@ -79,7 +79,7 @@
 }
 
 .about-text .btn {
-  background-color: #2c786c;
+  background-color: #1f2d2a;
 }
 
 .about-text .btn:hover {
@@ -92,7 +92,7 @@
 }
 
 .services-section h2 {
-  color: #2c786c;
+  color: #1f2d2a;
 }
 
 .section-subtitle {
@@ -101,7 +101,7 @@
 
 /* Service Card Icons */
 .icon-purple {
-  color: #2c786c;
+  color: #1f2d2a;
 }
 .icon-pink {
   color: #fca311;
@@ -125,7 +125,7 @@
 }
 
 .faq-header h2 {
-  color: #2c786c;
+  color: #1f2d2a;
 }
 
 .faq-header p {
@@ -140,8 +140,8 @@
 
 .accordion-button:not(.collapsed) {
   background-color: #e5f3f0;
-  color: #2c786c;
-  border-left: 5px solid #2c786c;
+  color: #1f2d2a;
+  border-left: 5px solid #1f2d2a;
 }
 
 .accordion-item {

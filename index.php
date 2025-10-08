@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Samarpan Pack</title>
+  <title>Sutharise Exports and Imports - Home Page</title>
   <!-- bootstrap icnos -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -38,25 +38,61 @@
 <body>
 
   <!-- header -->
- <?php include('header.php') ?>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" data-aos="fade-down" data-aos-duration="1000">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Sutharise Exports And Imports</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.php">Home</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="">Coconut</a></li>
+              <li><a class="dropdown-item" href="">Onion</a></li>
+              <li><a class="dropdown-item" href="">drumstick seeds oil </a></li>
+              <li><a class="dropdown-item" href="">amla</a></li>
+              <li><a class="dropdown-item" href="">lemon</a></li>
+              <li><a class="dropdown-item" href="">cardamom</a></li>
+              <li><a class="dropdown-item" href="">Cummins</a></li>
+              <li><a class="dropdown-item" href="">anise</a></li>
+              <li><a class="dropdown-item" href="">papper</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- carousel -->
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="assets/images/baner_1.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
+        <img src="assets/images/cardamom.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="assets/images/baner_2.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
+        <img src="assets/images/black_papper.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="assets/images/baner_3.webp" style="height:600px; width: auto;" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/coconuts_oil.webp" style="height:600px; width: auto;" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/roasted-coconut-oil.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
+        <img src="assets/images/amla.jpg" style="height:600px; width: auto;" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -70,50 +106,54 @@
   </div>
 
   <!-- About Content -->
-  <div class="container-fluid about-wrapper">
-    <div class="container">
-      <!-- About Section -->
-      <div class="about-heading text-center pt-4" data-aos="fade-up">
-        <h2>About Samarpan Pack</h2>
-        <p>
-          At <strong>Samarpan Pack</strong>, we are committed to delivering sustainable and high-quality products that support both everyday convenience and healthy living. Our offerings include eco-friendly <strong>paper cups</strong> and 100% natural <strong>cold pressed oils</strong>—crafted with care to serve your lifestyle and the environment.
-        </p>
-      </div>
-
-      <section class="about-section py-5">
-        <div class="row align-items-center">
-
-          <!-- Left Image -->
-          <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-duration="1000">
-            <div class="about-img">
-              <img src="assets/images/Cold-Pressed-Oil.webp" alt="Samarpan Pack Products" class="img-fluid" />
-            </div>
-          </div>
-
-          <!-- Right Text -->
-          <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
-            <div class="about-text">
-              <h2>Who We Are</h2>
-              <p>
-                <strong>Samarpan Pack</strong> is a forward-thinking company focused on promoting eco-conscious choices and natural wellness. Our product line is divided into two key categories:
-              </p>
-
-              <ul>
-                <li><strong>Paper Cups:</strong> Designed for durability and sustainability, our biodegradable paper cups are perfect for hot and cold beverages. Ideal for cafes, events, and everyday use.</li>
-                <li><strong>Cold Pressed Oils:</strong> Extracted using traditional wooden churners, our oils retain nutrients, flavor, and aroma—ensuring purity and health benefits in every drop.</li>
-              </ul>
-
-              <p>
-                Every product we offer reflects our dedication to quality, sustainability, and customer well-being.
-              </p>
-              <a href="contact.php" class="btn btn-primary">Connect With Us</a>
-            </div>
-          </div>
-
-        </div>
-      </section>
+<div class="container-fluid about-wrapper">
+  <div class="container">
+    <!-- About Section -->
+    <div class="about-heading text-center pt-4" data-aos="fade-up">
+      <h2>About Sutharise Exports and Imports</h2>
+      <p>
+        At <strong>Sutharise Exports and Imports</strong>, we specialize in delivering premium-quality agricultural and spice products across the globe. Our mission is to promote healthy living through natural, farm-sourced goods that meet international quality standards.
+      </p>
     </div>
+
+    <section class="about-section py-5">
+      <div class="row align-items-center">
+
+        <!-- Left Image -->
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="about-img">
+            <img src="assets/images/amla.jpg" alt="Sutharise Products" class="img-fluid" />
+          </div>
+        </div>
+
+        <!-- Right Text -->
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
+          <div class="about-text">
+            <h2>Who We Are</h2>
+            <p>
+              <strong>Sutharise Exports and Imports</strong> is a trusted name in the export of high-grade agricultural produce and spices. We proudly offer a diverse range of products that cater to both culinary and health-conscious markets.
+            </p>
+
+            <ul>
+              <li><strong>Coconuts</strong></li>
+              <li><strong>Small Onion</strong> & <strong>Big Onion</strong></li>
+              <li><strong>Pepper, Anise, Cumin, and Cardamom</strong></li>
+              <li><strong>Lemon and Amla</strong></li>
+              <li><strong>Drumstick</strong> and <strong>Drumstick Seeds (Oil Purpose)</strong></li>
+              <li><strong>Various Nuts</strong></li>
+            </ul>
+
+            <p>
+              Every product from Sutharise is handpicked and processed with utmost care to ensure freshness, purity, and long shelf life. Our commitment to quality and customer satisfaction drives everything we do.
+            </p>
+            <a href="contact.php" class="btn btn-primary">Connect With Us</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
   </div>
+</div>
 
   <!-- Our Products Section -->
   <div class="container-fluid py-5">
@@ -124,103 +164,100 @@
       </p>
       <div class="row justify-content-center g-4">
 
-        <!-- Product 1: Paper Cups -->
+        <!-- 1 -->
         <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
           <div class="card h-100 shadow border-0">
-            <img src="assets/images/Paper-Cups.jpg" class="card-img-top product-img" alt="Paper Cups">
+            <img src="assets/images/lemon.webp" class="card-img-top product-img" alt="Paper Cups">
             <div class="card-body text-center">
-              <h5 class="card-title">Paper Cups</h5>
+              <h5 class="card-title">Lemon</h5>
               <div class="d-flex justify-content-center gap-2">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="paper_cup.php" class="btn btn-primary">Details</a>
+                <a href="lemon.php" class="btn btn-primary">Details</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Product 2: Cold Pressed Oil -->
+        <!-- 2 -->
         <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
           <div class="card h-100 shadow border-0">
-            <img src="assets/images/Cold-Pressed-Oil.webp" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <img src="assets/images/amla.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
             <div class="card-body text-center">
-              <h5 class="card-title">Cold Pressed Oil</h5>
+              <h5 class="card-title">Amla</h5>
               <div class="d-flex justify-content-center gap-2">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="cold_pressed_oil.php" class="btn btn-primary">Details</a>
+                <a href="amla.php" class="btn btn-primary">Details</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Product 3:Sun flower oil -->
+        <!-- 3 -->
         <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
           <div class="card h-100 shadow border-0">
-            <img src="assets/images/Sunflower_oil.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <img src="assets/images/drumstaic_seeds_oil.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
             <div class="card-body text-center">
-              <h5 class="card-title">Sun Flower Oil</h5>
+              <h5 class="card-title">Drumstaic Seeds Oil</h5>
               <div class="d-flex justify-content-center gap-2">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="sun_flower_oil.php" class="btn btn-primary">Details</a>
+                <a href="drumstaic_seeds_oil.php" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 shadow border-0">
+            <img src="assets/images/Cummins_seeds.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <div class="card-body text-center">
+              <h5 class="card-title">Cummins Seeds</h5>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
+                <a href="cummin_seeds.php" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 shadow border-0">
+            <img src="assets/images/coconut.webp" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <div class="card-body text-center">
+              <h5 class="card-title">Coconut</h5>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
+                <a href="coconut.php" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 shadow border-0">
+            <img src="assets/images/black_papper.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <div class="card-body text-center">
+              <h5 class="card-title">Black Papper</h5>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
+                <a href="black_papper.php" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 shadow border-0">
+            <img src="assets/images/anise.webp" class="card-img-top product-img" alt="Cold Pressed Oil">
+            <div class="card-body text-center">
+              <h5 class="card-title">Anise</h5>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
+                <a href="anise.php" class="btn btn-primary">Details</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Product 4: Palmolein Oil -->
-        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card h-100 shadow border-0">
-            <img src="assets/images/Cold-Pressed-Oil.webp" class="card-img-top product-img" alt="Cold Pressed Oil">
-            <div class="card-body text-center">
-              <h5 class="card-title">Palmolein Oil</h5>
-              <div class="d-flex justify-content-center gap-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="palmolein_oil.php" class="btn btn-primary">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 5: Mustard oil -->
-        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card h-100 shadow border-0">
-            <img src="assets/images/Mustard_oil.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
-            <div class="card-body text-center">
-              <h5 class="card-title">Mustard Oil</h5>
-              <div class="d-flex justify-content-center gap-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="mustard_oil.php" class="btn btn-primary">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 6: cotton oil -->
-        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card h-100 shadow border-0">
-            <img src="assets/images/cotton-oil.webp" class="card-img-top product-img" alt="Cold Pressed Oil">
-            <div class="card-body text-center">
-              <h5 class="card-title">Cotton Oil</h5>
-              <div class="d-flex justify-content-center gap-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal"  class="btn btn-outline-primary">Enquiry</a>
-                <a href="cotton_oil.php" class="btn btn-primary">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Product 7: Coconut oil -->
-        <div class="col-sm-10 col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-          <div class="card h-100 shadow border-0">
-            <img src="assets/images/Coconut_oil.jpg" class="card-img-top product-img" alt="Cold Pressed Oil">
-            <div class="card-body text-center">
-              <h5 class="card-title">Coconut Oil</h5>
-              <div class="d-flex justify-content-center gap-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#enquiryModal" class="btn btn-outline-primary">Enquiry</a>
-                <a href="coconut_oil.php" class="btn btn-primary">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
     </div>
@@ -228,199 +265,199 @@
   <!-- product ends-->
 
   <!-- services -->
-  <section class="py-5 services-section" id="services">
-    <div class="container text-center">
-      <h2 class="mb-4" data-aos="fade-up">Our Services</h2>
-      <p class="mb-5 section-subtitle" data-aos="fade-up" data-aos-delay="100">
-        At <strong>Pal Creation</strong>, we offer reliable, eco-conscious solutions in disposable food packaging and natural wellness products — tailored for both individual and bulk buyers.
-      </p>
+<section class="py-5 services-section" id="services">
+  <div class="container text-center">
+    <h2 class="mb-4" data-aos="fade-up">Our Services</h2>
+    <p class="mb-5 section-subtitle" data-aos="fade-up" data-aos-delay="100">
+      At <strong>Sutharise Exports and Imports</strong>, we specialize in sourcing, processing, and exporting premium-grade agricultural produce and spices — delivering quality and trust to global and domestic markets.
+    </p>
 
-      <div class="row g-4 justify-content-center">
+    <div class="row g-4 justify-content-center">
 
-        <!-- Service 1 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-          <div class="service-card">
-            <i class="bi bi-cup-hot fs-1 icon-purple"></i>
-            <h5 class="mt-3">Custom Paper Cup Printing</h5>
-            <p>Get your logo or branding printed on eco-friendly paper cups — ideal for cafes, events, and promotions.</p>
-          </div>
+      <!-- Service 1 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="service-card">
+          <i class="bi bi-box2-heart fs-1 icon-purple"></i>
+          <h5 class="mt-3">Fresh Produce Export</h5>
+          <p>We export high-quality coconuts, small onions, big onions, and lemons — carefully packed to retain freshness and meet international standards.</p>
         </div>
-
-        <!-- Service 2 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-          <div class="service-card">
-            <i class="bi bi-box-seam fs-1 icon-pink"></i>
-            <h5 class="mt-3">Bulk Supply & Distribution</h5>
-            <p>Wholesale distribution of paper cups and cold pressed oils with flexible packaging and logistics support.</p>
-          </div>
-        </div>
-
-        <!-- Service 3 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-          <div class="service-card">
-            <i class="bi bi-flower3 fs-1 icon-gold"></i>
-            <h5 class="mt-3">Private Labeling</h5>
-            <p>Offer cold pressed oils under your own brand with our private labeling and packaging services.</p>
-          </div>
-        </div>
-
-        <!-- Service 4 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
-          <div class="service-card">
-            <i class="bi bi-droplet-half fs-1 icon-indigo"></i>
-            <h5 class="mt-3">Oil Extraction & Purity Testing</h5>
-            <p>Our oils are cold-pressed and batch-tested for purity, ensuring high nutritional and health value.</p>
-          </div>
-        </div>
-
-        <!-- Service 5 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
-          <div class="service-card">
-            <i class="bi bi-shop-window fs-1 icon-coral"></i>
-            <h5 class="mt-3">Product Customization</h5>
-            <p>We cater to both small retailers and large businesses with flexible MOQ options and competitive pricing.</p>
-          </div>
-        </div>
-
-        <!-- Service 6 -->
-        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
-          <div class="service-card">
-            <i class="bi bi-globe fs-1 icon-sky"></i>
-            <h5 class="mt-3">Pan-India & Export Service</h5>
-            <p>Serving clients across India and abroad with timely delivery, documentation, and export assistance.</p>
-          </div>
-        </div>
-
       </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="service-card">
+          <i class="bi bi-spa fs-1 icon-pink"></i>
+          <h5 class="mt-3">Spices & Herbs Supply</h5>
+          <p>Premium-grade spices including pepper, anise, cumin, and cardamom — cleaned, sorted, and packaged for both culinary and medicinal use.</p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="service-card">
+          <i class="bi bi-droplet fs-1 icon-gold"></i>
+          <h5 class="mt-3">Drumstick & Oil Seed Supply</h5>
+          <p>Supplying fresh drumsticks and drumstick seeds — ideal for food use and oil extraction industries with high purity assurance.</p>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="service-card">
+          <i class="bi bi-nut fs-1 icon-indigo"></i>
+          <h5 class="mt-3">Nut & Amla Distribution</h5>
+          <p>Exporting naturally sourced amla and various nutritious nuts — rich in vitamins, antioxidants, and shelf-stable for global shipment.</p>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+        <div class="service-card">
+          <i class="bi bi-gear-wide-connected fs-1 icon-coral"></i>
+          <h5 class="mt-3">Custom Packaging & Labeling</h5>
+          <p>Offering private labeling and custom packaging options for retailers and international distributors — your brand, our quality.</p>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+        <div class="service-card">
+          <i class="bi bi-truck fs-1 icon-sky"></i>
+          <h5 class="mt-3">Global Logistics & Export</h5>
+          <p>Seamless export support including documentation, customs clearance, and on-time delivery — Pan-India and worldwide.</p>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
   <!-- end services -->
 
   <!-- FAQ Section -->
-  <div class="container-fluid">
-    <section class="faq-section container py-5" data-aos="fade-up">
-      <div class="faq-header text-center mb-4">
-        <h2>Frequently Asked Questions</h2>
-        <p class="text-muted">Have questions about our products? We’re here to help.</p>
+<div class="container-fluid">
+  <section class="faq-section container py-5" data-aos="fade-up">
+    <div class="faq-header text-center mb-4">
+      <h2>Frequently Asked Questions</h2>
+      <p class="text-muted">Have questions about our products or export process? We're here to help.</p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+
+      <!-- FAQ 1 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="accordion-header" id="faqOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            What products does Sutharise Exports and Imports offer?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We offer a wide range of fresh and natural agricultural products including coconuts, small onions, big onions, pepper, anise, cumin, cardamom, lemon, amla, drumstick, drumstick seeds (for oil extraction), and various types of nuts.
+          </div>
+        </div>
       </div>
 
-      <div class="accordion" id="faqAccordion">
-
-        <!-- FAQ 1 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
-          <h2 class="accordion-header" id="faqOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-              What types of paper cups do you offer?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              We offer eco-friendly paper cups in various sizes, suitable for hot and cold beverages. Our cups are biodegradable and made from sustainable materials.
-            </div>
+      <!-- FAQ 2 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="150">
+        <h2 class="accordion-header" id="faqTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Do you export internationally?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, we export our products across various international markets with complete documentation, packaging, and logistics support to meet country-specific regulations.
           </div>
         </div>
-
-        <!-- FAQ 2 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="150">
-          <h2 class="accordion-header" id="faqTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-              What is cold pressed oil and why is it better?
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Cold pressed oil is extracted by pressing seeds or nuts without heat, preserving the natural nutrients, flavor, and aroma, making it healthier than refined oils.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 3 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-          <h2 class="accordion-header" id="faqThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-              Can I customize paper cups with my branding?
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Yes! We provide custom printing services on paper cups for cafes, events, and businesses to help promote your brand sustainably.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 4 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="250">
-          <h2 class="accordion-header" id="faqFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-              Do you accept bulk orders and offer wholesale pricing?
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Yes, we cater to both retail and wholesale customers with competitive pricing for bulk orders. Please <a href="#contact">contact us</a> for more details.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 5 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
-          <h2 class="accordion-header" id="faqFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-              How should I store cold pressed oils?
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Store cold pressed oils in a cool, dark place away from direct sunlight to maintain freshness and extend shelf life.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 6 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="350">
-          <h2 class="accordion-header" id="faqSix">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
-              Do you ship internationally?
-            </button>
-          </h2>
-          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Yes, we ship our products across India and internationally. Shipping charges and delivery times vary based on location.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 7 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
-          <h2 class="accordion-header" id="faqSeven">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
-              Are your paper cups biodegradable?
-            </button>
-          </h2>
-          <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Yes, our paper cups are made from biodegradable materials that break down naturally, helping reduce environmental impact.
-            </div>
-          </div>
-        </div>
-
-        <!-- FAQ 8 -->
-        <div class="accordion-item" data-aos="fade-up" data-aos-delay="450">
-          <h2 class="accordion-header" id="faqEight">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
-              Where is Pal Creation located and where are your products made?
-            </button>
-          </h2>
-          <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              <strong>Pal Creation</strong> is based in India. Our paper cups and cold pressed oils are produced with strict quality standards to ensure sustainability and purity.
-            </div>
-          </div>
-        </div>
-
       </div>
-    </section>
-  </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+        <h2 class="accordion-header" id="faqThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            How is product quality ensured?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Our products are carefully sourced from trusted farms and go through quality checks including grading, sorting, and hygienic packing. We ensure compliance with international food safety standards.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="250">
+        <h2 class="accordion-header" id="faqFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Can I place bulk or wholesale orders?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, we specialize in bulk and wholesale orders. Whether you're a distributor, retailer, or importer, we provide flexible quantities, custom packaging, and competitive pricing.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="accordion-header" id="faqFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+            What is the shelf life of your products?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Shelf life depends on the product. For example, spices like cardamom and cumin can last up to 12–18 months when stored properly, while fresh produce like onions and amla should be consumed sooner or stored in a cool, dry place.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="350">
+        <h2 class="accordion-header" id="faqSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+            Do you provide custom packaging and labeling?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, we offer private labeling and custom packaging based on your branding needs, especially for international buyers or retail chains.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+        <h2 class="accordion-header" id="faqSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+            What are your payment and shipping terms?
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We offer flexible payment terms depending on order volume and client type. Shipping terms (FOB, CIF, etc.) can be discussed and arranged as per buyer requirements.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="accordion-item" data-aos="fade-up" data-aos-delay="450">
+        <h2 class="accordion-header" id="faqEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+            How do I place an order with Sutharise Exports and Imports?
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            You can reach out to us through our <a href="contact.php">Contact Page</a> or WhatsApp. Share your product requirements, quantity, destination port, and we’ll guide you through the quotation and shipping process.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
   <!-- end faq -->
 
   <!-- contact us  -->
@@ -438,10 +475,7 @@
         <!-- Map Column -->
         <div class="col-lg-6" data-aos="fade-right">
           <div class="rounded-3 overflow-hidden shadow-sm">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59758.236328837505!2d72.90452962398624!3d20.592558671964547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1st%20Floor%2C%20Shop.%20No.%20118%2C%20Shiv%20Shakti%20Residency%2C%20C-Building%2C%20Gundlav%20Road%2C%20Gundlav%2C%20Valsad%2C%20Valsad%2C%20Gujarat%2C%20396035!5e0!3m2!1sen!2sin!4v1758798819297!5m2!1sen!2sin"
-              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.1752789016778!2d77.64748833956702!3d10.468885082801954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9e6ab3de4749d%3A0x1b0784d403760875!2s2%2C%20Palani%20Rd%2C%20Chatrapatti%2C%20Tamil%20Nadu%20624614!5e0!3m2!1sen!2sin!4v1759917936333!5m2!1sen!2sin"width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
@@ -475,7 +509,82 @@
     </div>
   </section>
 
-  <!-- footer -->
-   <?php include('footer.php') ?>
+  <!-- Footer -->
+  <footer class="pt-5 pb-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
 
+        <!-- Company Info -->
+        <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold mb-4">Sutharise Exports And Imports </h5>
+          <p>
+           At Sutharise Exports and Imports, we specialize in delivering premium-quality embroidery fabrics that seamlessly fuse traditional craftsmanship with contemporary design aesthetics.
+          </p>
+        </div>
 
+        <!-- Products -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+          <ul class="list-unstyled">
+            <li><a href="#">Anise</a></li>
+            <li><a href="#">Coconut</a></li>
+            <li><a href="#">Cummins Seeds</a></li>
+            <li><a href="#">Drumstaic Seeds Oil</a></li>
+            <li><a href="#">Amla</a></li>
+            <li><a href="#">Lemon</a></li>
+            <li><a href="#">Black Papper</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="product.php">Products</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="bi bi-house-door-fill me-2"></i> 2/86, Palani road, Dindigul, tamilnadu-624614</p>
+          <p><i class="bi bi-envelope-fill me-2"></i>suthariseexportsandimports@gmail.com </p>
+          <p><i class="bi bi-telephone-fill me-2"></i> +91 8270077327 ||  8523977925</p>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="my-4">
+
+      <!-- Social Media + Copyright -->
+      <div class="row align-items-center text-center">
+        <div class="col-md-6">
+          <p class="mb-0 text-center">© 2025 Sutharise Exports And Imports . All Rights Reserved.</p>
+          <span>Design By <a href="https://trade4export.com/">Trade4Export</a></span>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="#"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="#"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="#"><i class="bi bi-whatsapp fs-5"></i></a>
+            <a href="#"><i class="bi bi-linkedin fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- bootstrap js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
