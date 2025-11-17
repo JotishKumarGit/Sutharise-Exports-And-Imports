@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samarpan Pack - Sun Flower Oil </title>
-    <!-- bootstrap icnos -->
+    <title>Sutharise Exports And Imports - Cockscomb</title>
+
+    <!-- bootstrap icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,7 +30,6 @@
 
         footer a:hover {
             color: #0dcaf0 !important;
-            /* Bootstrap info color */
             transition: 0.3s ease;
         }
     </style>
@@ -37,7 +38,7 @@
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/Cold-Pressed-Oil.webp') no-repeat center center;
+            background: url('assets/images/Cockscomb.jpg') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -52,7 +53,6 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
-            /* Dark overlay */
             z-index: 1;
         }
 
@@ -108,7 +108,7 @@
         }
     </style>
 
-    <!-- products  -->
+    <!-- products -->
     <style>
         .product-image {
             transition: transform 0.3s ease;
@@ -145,9 +145,7 @@
             border-radius: 50px;
         }
     </style>
-
 </head>
-
 <body>
 
     <!-- header -->
@@ -156,37 +154,37 @@
     <!-- Page Header Section -->
     <section class="page-header">
         <div class="container">
-            <h1>Sunflower Oil</h1>
+            <h1>Welcome To Our Products</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Products</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Sunflower Oil</li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Cockscomb</li>
                 </ol>
             </nav>
         </div>
     </section>
 
-
     <!-- Product Details Section -->
-    <div class="container-fluid bg-light product-section" id="product-sunflower-oil">
+    <div class="container-fluid bg-light product-section" id="product-cockscomb">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Product Image -->
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="assets/images/Sunflower_oil.jpg" alt="Sunflower Oil" class="product-image">
+                    <img src="assets/images/Cockscomb.jpg" alt="Cockscomb Flower" class="product-image">
                 </div>
 
                 <!-- Product Content -->
                 <div class="col-md-6 product-details" data-aos="fade-left">
-                    <h2>Sunflower Oil</h2>
-                    <p>Our premium quality <strong>Sunflower Oil</strong> is extracted from high-grade sunflower seeds using cold-pressed methods to preserve its purity, nutrients, and light flavor. Perfect for heart-healthy cooking and skincare.</p>
+                    <h2>Fresh Cockscomb (Celosia Cristata)</h2>
+                    <p>Our <strong>vibrant and organically grown Cockscomb flowers</strong> are known for their rich color, ruffled texture, and medicinal value. These flowers are commonly used in decorations, traditional medicines, and as a natural food colorant.</p>
 
                     <ul>
-                        <li>Rich in Vitamin E and healthy unsaturated fats</li>
-                        <li>Light taste – ideal for frying, sautéing, and baking</li>
-                        <li>Supports heart health and cholesterol balance</li>
-                        <li>Also suitable for massage and moisturizing skin</li>
+                        <li>Bright, velvety blooms with long shelf life</li>
+                        <li>Used in traditional medicine for cooling and detox benefits</li>
+                        <li>Popular in ornamental floral arrangements</li>
+                        <li>Can be dried for decorative and herbal purposes</li>
+                        <li>Sustainably cultivated and carefully handpicked</li>
                     </ul>
 
                     <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
@@ -197,6 +195,8 @@
         </div>
     </div>
 
-
     <!-- footer -->
     <?php include('footer.php') ?>
+
+</body>
+</html>

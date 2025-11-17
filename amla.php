@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samarpan Pack - COld Pressed Oil </title>
-    <!-- bootstrap icnos -->
+    <title>Sutharise Exports And Imports - Amla</title>
+
+    <!-- bootstrap icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,7 +30,6 @@
 
         footer a:hover {
             color: #0dcaf0 !important;
-            /* Bootstrap info color */
             transition: 0.3s ease;
         }
     </style>
@@ -37,7 +38,7 @@
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/Cold-Pressed-Oil.webp') no-repeat center center;
+            background: url('assets/images/amla.jpg') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -52,7 +53,6 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
-            /* Dark overlay */
             z-index: 1;
         }
 
@@ -108,7 +108,7 @@
         }
     </style>
 
-    <!-- products  -->
+    <!-- products -->
     <style>
         .product-image {
             transition: transform 0.3s ease;
@@ -145,9 +145,7 @@
             border-radius: 50px;
         }
     </style>
-
 </head>
-
 <body>
 
     <!-- header -->
@@ -156,37 +154,37 @@
     <!-- Page Header Section -->
     <section class="page-header">
         <div class="container">
-            <h1>Cold Pressed Oil</h1>
+            <h1>Welcome To Our Products</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Products</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Cold Pressed Oil</li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Amla</li>
                 </ol>
             </nav>
         </div>
     </section>
 
-
     <!-- Product Details Section -->
-    <div class="container-fluid bg-light product-section" id="product-cold-pressed-oil">
+    <div class="container-fluid bg-light product-section" id="product-amla">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Product Image -->
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="assets/images/Cold-Pressed-Oil.webp" alt="Cold Pressed Oil" class="product-image">
+                    <img src="assets/images/amla.jpg" alt="Fresh Organic Amla" class="product-image">
                 </div>
 
                 <!-- Product Content -->
                 <div class="col-md-6 product-details" data-aos="fade-left">
-                    <h2>Cold Pressed Oil</h2>
-                    <p>Experience the richness of <strong>pure, cold-pressed oil</strong>, extracted using traditional methods to retain its natural aroma, flavor, and nutrients. A healthier alternative for everyday cooking and skincare.</p>
+                    <h2>Fresh Amla</h2>
+                    <p>Our <strong>fresh, organically grown amla (Indian gooseberry)</strong> is packed with Vitamin C and antioxidants. Known for its powerful health benefits, amla boosts immunity, enhances hair growth, and rejuvenates the body naturally.</p>
 
                     <ul>
-                        <li>100% natural & chemical-free extraction</li>
-                        <li>Rich in essential fatty acids and antioxidants</li>
-                        <li>Boosts heart health and improves digestion</li>
-                        <li>Great for oil pulling, massages, and hair care</li>
+                        <li>Excellent source of Vitamin C for stronger immunity</li>
+                        <li>Promotes healthy skin and hair growth</li>
+                        <li>Supports digestion and detoxification</li>
+                        <li>Perfect for juices, pickles, powders, and Ayurvedic remedies</li>
+                        <li>Rich in antioxidants that slow down aging naturally</li>
                     </ul>
 
                     <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
@@ -199,3 +197,6 @@
 
     <!-- footer -->
     <?php include('footer.php') ?>
+
+</body>
+</html>

@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samarpan Pack - Palmolein Oil </title>
-    <!-- bootstrap icnos -->
+    <title>Sutharise Exports And Imports - Drumstick Seeds Oil</title>
+
+    <!-- bootstrap icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,7 +30,6 @@
 
         footer a:hover {
             color: #0dcaf0 !important;
-            /* Bootstrap info color */
             transition: 0.3s ease;
         }
     </style>
@@ -37,7 +38,7 @@
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/Cold-Pressed-Oil.webp') no-repeat center center;
+            background: url('assets/images/drumstaic_seeds_oil.jpg') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -52,7 +53,6 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
-            /* Dark overlay */
             z-index: 1;
         }
 
@@ -108,7 +108,7 @@
         }
     </style>
 
-    <!-- products  -->
+    <!-- products -->
     <style>
         .product-image {
             transition: transform 0.3s ease;
@@ -145,9 +145,7 @@
             border-radius: 50px;
         }
     </style>
-
 </head>
-
 <body>
 
     <!-- header -->
@@ -156,36 +154,37 @@
     <!-- Page Header Section -->
     <section class="page-header">
         <div class="container">
-            <h1>Paper Cups</h1>
+            <h1>Welcome To Our Products</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Products</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Paper Cups</li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Drumstick Seeds Oil</li>
                 </ol>
             </nav>
         </div>
     </section>
 
     <!-- Product Details Section -->
-    <div class="container-fluid bg-light product-section" id="product-paper-cups">
+    <div class="container-fluid bg-light product-section" id="product-drumstick-oil">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Product Image -->
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="assets/images/Paper-Cups.jpg" alt="Paper Cups" class="product-image">
+                    <img src="assets/images/drumstaic_seeds_oil.jpg" alt="Drumstick Seeds Oil" class="product-image">
                 </div>
 
                 <!-- Product Content -->
                 <div class="col-md-6 product-details" data-aos="fade-left">
-                    <h2>Paper Cups</h2>
-                    <p><strong>Paper Cups</strong> are a convenient, eco-friendly solution for serving hot and cold beverages. Ideal for parties, offices, or takeaways, these disposable cups are designed for single-use while maintaining durability and comfort.</p>
+                    <h2>Drumstick Seeds Oil (Moringa Oil)</h2>
+                    <p>Our <strong>pure Drumstick Seeds Oil</strong>, also known as <strong>Moringa Oil</strong>, is extracted from high-quality moringa seeds using a cold-pressed method. Rich in vitamins, antioxidants, and oleic acid, it is perfect for skincare, hair care, and overall wellness.</p>
 
                     <ul>
-                        <li>Made from food-grade paper material</li>
-                        <li>Available in multiple sizes and designs</li>
-                        <li>Leak-proof and heat-resistant options</li>
-                        <li>Perfect for coffee, tea, and cold drinks</li>
+                        <li>Cold-pressed and 100% natural extraction process</li>
+                        <li>Rich in antioxidants and Vitamin E for radiant skin</li>
+                        <li>Promotes hair growth and scalp nourishment</li>
+                        <li>Helps reduce inflammation and dryness</li>
+                        <li>Suitable for cosmetics, massage oils, and health supplements</li>
                     </ul>
 
                     <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
@@ -196,6 +195,8 @@
         </div>
     </div>
 
-
     <!-- footer -->
     <?php include('footer.php') ?>
+
+</body>
+</html>

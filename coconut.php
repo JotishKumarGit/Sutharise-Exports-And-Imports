@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samarpan Pack - Cotton Oil</title>
+    <title>Sutharise Exports And Imports - Coconut Oil </title>
     <!-- bootstrap icnos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -37,7 +37,7 @@
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/Cold-Pressed-Oil.webp') no-repeat center center;
+            background: url('assets/images/coconut.webp') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -156,47 +156,47 @@
     <!-- Page Header Section -->
     <section class="page-header">
         <div class="container">
-            <h1>Cotton Oil</h1>
+            <h1>Welcome To Our Products</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Products</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Cotton Oil</li>
+                    <li class="breadcrumb-item"><a href="#">Features</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Coconut</li>
                 </ol>
             </nav>
         </div>
     </section>
 
     <!-- Product Details Section -->
-    <div class="container-fluid bg-light product-section" id="product-cotton-oil">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- Product Image -->
-                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="assets/images/cotton-oil.webp" alt="Cotton Oil" class="product-image">
-                </div>
+ <div class="container-fluid bg-light product-section" id="product-coconut">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Product Image -->
+            <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+                <img src="assets/images/coconut.webp" alt="Fresh Organic Coconut" class="product-image">
+            </div>
 
-                <!-- Product Content -->
-                <div class="col-md-6 product-details" data-aos="fade-left">
-                    <h2>Cotton Oil</h2>
-                    <p>Our premium <strong>Cotton Oil</strong> is refined and processed to remove impurities, giving you a neutral‑flavored oil with good cooking stability. It’s suited for frying, baking, and general cooking applications.</p>
+            <!-- Product Content -->
+            <div class="col-md-6 product-details" data-aos="fade-left">
+                <h2>Fresh Coconut</h2>
+                <p>Our <strong>fresh, organically grown coconuts</strong> are harvested from healthy coconut palms to deliver natural hydration, rich flavor, and essential nutrients. A versatile tropical fruit packed with benefits for your health and lifestyle.</p>
 
-                    <ul>
-                        <li>High smoke point – suitable for frying and deep-frying</li>
-                        <li>Neutral taste – doesn’t overpower food flavors</li>
-                        <li>Good source of polyunsaturated fats and vitamin E :contentReference[oaicite:0]{index=0}</li>
-                        <li>Used in baking, salad dressings, and food processing industries :contentReference[oaicite:1]{index=1}</li>
-                    </ul>
+                <ul>
+                    <li>Rich in electrolytes, fiber, and essential minerals</li>
+                    <li>Natural source of hydration from pure coconut water</li>
+                    <li>Delicious, tender coconut meat – perfect for eating or cooking</li>
+                    <li>Can be used in smoothies, desserts, and traditional dishes</li>
+                    <li>Supports digestion, energy, and skin health naturally</li>
+                </ul>
 
-                    <p><em>Note:</em> Raw/unrefined cotton oil contains a natural toxin called **gossypol**, which is removed during processing. :contentReference[oaicite:2]{index=2}</p>
-
-                    <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                        Enquiry Now
-                    </button>
-                </div>
+                <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                    Enquiry Now
+                </button>
             </div>
         </div>
     </div>
+</div>
+
 
     <!-- footer -->
     <?php include('footer.php') ?>

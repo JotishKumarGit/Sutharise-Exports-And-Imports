@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sutharise Exports And Imports - About Us</title>
-    <!-- bootstrap icnos -->
+    <title>Sutharise Exports And Imports - Cummins Seeds</title>
+
+    <!-- bootstrap icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -28,15 +30,15 @@
 
         footer a:hover {
             color: #0dcaf0 !important;
-            /* Bootstrap info color */
             transition: 0.3s ease;
         }
     </style>
 
+    <!-- page-header -->
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/about_s.jpg') no-repeat center center;
+            background: url('assets/images/Cummins_seeds.jpg') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -51,7 +53,6 @@
             right: 0;
             bottom: 0;
             background-color: rgba(0, 0, 0, 0.5);
-            /* Dark overlay */
             z-index: 1;
         }
 
@@ -107,8 +108,44 @@
         }
     </style>
 
-</head>
+    <!-- products -->
+    <style>
+        .product-image {
+            transition: transform 0.3s ease;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            height: auto;
+        }
 
+        .product-image:hover {
+            transform: scale(1.05);
+        }
+
+        .product-section {
+            padding: 60px 0;
+        }
+
+        .product-details h2 {
+            font-weight: 700;
+        }
+
+        .product-details ul {
+            padding-left: 1.2rem;
+        }
+
+        .product-details li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .btn-enquiry {
+            padding: 10px 25px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+        }
+    </style>
+</head>
 <body>
 
     <!-- header -->
@@ -117,66 +154,49 @@
     <!-- Page Header Section -->
     <section class="page-header">
         <div class="container">
-            <h1>Welcome To Our About Us</h1>
+            <h1>Welcome To Our Products</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Features</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    <li class="breadcrumb-item active" aria-current="page">Cummins Seeds</li>
                 </ol>
             </nav>
         </div>
     </section>
 
-    <!-- About Content -->
-    <div class="container-fluid about-wrapper">
+    <!-- Product Details Section -->
+    <div class="container-fluid bg-light product-section" id="product-cummins-seeds">
         <div class="container">
-            <!-- About Section -->
-            <div class="about-heading text-center pt-4" data-aos="fade-up">
-                <h2>About Sutharise Exports and Imports</h2>
-                <p>
-                    At <strong>Sutharise Exports and Imports</strong>, we specialize in delivering premium-quality agricultural and spice products across the globe. Our mission is to promote healthy living through natural, farm-sourced goods that meet international quality standards.
-                </p>
-            </div>
-
-            <section class="about-section py-5">
-                <div class="row align-items-center">
-
-                    <!-- Left Image -->
-                    <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="about-img">
-                            <img src="assets/images/amla.jpg" alt="Sutharise Products" class="img-fluid" />
-                        </div>
-                    </div>
-
-                    <!-- Right Text -->
-                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="about-text">
-                            <h2>Who We Are</h2>
-                            <p>
-                                <strong>Sutharise Exports and Imports</strong> is a trusted name in the export of high-grade agricultural produce and spices. We proudly offer a diverse range of products that cater to both culinary and health-conscious markets.
-                            </p>
-
-                            <ul>
-                                <li><strong>Coconuts</strong></li>
-                                <li><strong>Small Onion</strong> & <strong>Big Onion</strong></li>
-                                <li><strong>Pepper, Anise, Cumin, and Cardamom</strong></li>
-                                <li><strong>Lemon and Amla</strong></li>
-                                <li><strong>Drumstick</strong> and <strong>Drumstick Seeds (Oil Purpose)</strong></li>
-                                <li><strong>Various Nuts</strong></li>
-                            </ul>
-
-                            <p>
-                                Every product from Sutharise is handpicked and processed with utmost care to ensure freshness, purity, and long shelf life. Our commitment to quality and customer satisfaction drives everything we do.
-                            </p>
-                            <a href="contact.php" class="btn btn-primary">Connect With Us</a>
-                        </div>
-                    </div>
-
+            <div class="row align-items-center">
+                <!-- Product Image -->
+                <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
+                    <img src="assets/images/Cummins_seeds.jpg" alt="Cummins Seeds" class="product-image">
                 </div>
-            </section>
+
+                <!-- Product Content -->
+                <div class="col-md-6 product-details" data-aos="fade-left">
+                    <h2>Premium Cummins Seeds (Cumin Seeds)</h2>
+                    <p>Our <strong>premium quality Cummins Seeds (Cumin Seeds)</strong> are carefully sourced and processed to retain their rich aroma and flavor. Known for their digestive and medicinal properties, these seeds are a staple in kitchens around the world.</p>
+
+                    <ul>
+                        <li>Rich in aroma and natural essential oils</li>
+                        <li>Enhances flavor in curries, soups, and spice blends</li>
+                        <li>Supports digestion and overall wellness</li>
+                        <li>High purity and hygienically packed for freshness</li>
+                        <li>Widely used in culinary and Ayurvedic applications</li>
+                    </ul>
+
+                    <button class="btn btn-primary btn-enquiry mt-3" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                        Enquiry Now
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- footer -->
     <?php include('footer.php') ?>
+
+</body>
+</html>

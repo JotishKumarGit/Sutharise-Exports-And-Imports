@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Samarpan Pack - Contact Us</title>
+    <title>Sutharise Exports And Imports- Contact Us</title>
     <!-- bootstrap icnos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -36,7 +36,7 @@
     <style>
         .page-header {
             position: relative;
-            background: url('assets/images/Cold-Pressed-Oil.webp') no-repeat center center;
+            background: url('assets/images/contact.avif') no-repeat center center;
             background-size: cover;
             padding: 100px 0;
             color: white;
@@ -143,10 +143,7 @@
                 <!-- Map Column -->
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="rounded-3 overflow-hidden shadow-sm">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59758.236328837505!2d72.90452962398624!3d20.592558671964547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1st%20Floor%2C%20Shop.%20No.%20118%2C%20Shiv%20Shakti%20Residency%2C%20C-Building%2C%20Gundlav%20Road%2C%20Gundlav%2C%20Valsad%2C%20Valsad%2C%20Gujarat%2C%20396035!5e0!3m2!1sen!2sin!4v1758798819297!5m2!1sen!2sin"
-                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.1752789016778!2d77.64748833956702!3d10.468885082801954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9e6ab3de4749d%3A0x1b0784d403760875!2s2%2C%20Palani%20Rd%2C%20Chatrapatti%2C%20Tamil%20Nadu%20624614!5e0!3m2!1sen!2sin!4v1759917936333!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
